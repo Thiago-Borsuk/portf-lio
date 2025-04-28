@@ -1,1 +1,163 @@
 
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/timão.jpg" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Corinthiano</p>
+        <h1>Eu torço para o corinthians(TIMÃO)</h1>
+        <p></p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>MELHOR TRIO DO BRASILEIRÃO</h2>
+        <div class="row">
+            <!-- Camisa 8-->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/garro.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Melhor meio campo: R.GARRO 8</h5>
+                        <p class="card-text">Rodrigo Garro é um futebolista argentino que atua como meio-campista no Corinthians. Ele foi um dos destaques do Campeonato Argentino em 2023 pelo Talleres e considerado um dos meio-campistas mais talentosos do futebol argentino. Em 2024, tornou-se o líder de assistências no Campeonato Brasileiro, com 10 assistências. No entanto, ele está sendo investigado por homicídio culposo na Argentina, devido a um acidente que causou a morte de um motociclista. 
+
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Camisa 9 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/yuri.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Melhor centroavante: Y.ALBERTO 9</h5>
+                        <p class="card-text">Yuri Alberto é um futebolista brasileiro, centroavante, que atualmente joga no Corinthians. Ele é conhecido por ser um dos jogadores com maior influência nos gols marcados pelo seu time no Brasil, com destaque para a sua performance em 2024, onde foi artilheiro do Brasileirão. 
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Camisa 10 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/memphis depay .jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Melhor atacante: M.DEPAY 10</h5>
+                        <p class="card-text">Memphis Depay é um futebolista neerlandês que atua como atacante e que atualmente joga no Corinthians. Ele tem uma extensa carreira em grandes clubes europeus, incluindo PSV, Manchester United, Lyon, Barcelona e Atlético de Madrid. Além do futebol, Depay também é conhecido por sua carreira musical, com um canal no YouTube onde lança músicas de rap. 
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">GARRITO</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Rodrigo Garro, meio-campista argentino, chegou ao Corinthians com a expectativa de 
+                        ser um nome importante na criação de jogadas. Rápido e habilidoso, busca se firmar no 
+                        futebol brasileiro. Sua adaptação ao estilo de jogo e ao novo ambiente são desafios a 
+                        serem superados para que possa mostrar todo o seu potencial no clube paulista. A torcida 
+                        corintiana deposita esperanças em seu talento para qualificar o meio de campo da equipe.</p>
+                    <img src="img/8.jpg" 
+                     > <img img src="img/garrito.jpg">
+                        
+                </div> Apenas o melhor 10 
+               
+                <div>
+                    
+                </div>👉🤪👈
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Bagre Alberto</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Yuri Alberto, centroavante do Corinthians, carrega a responsabilidade de ser o goleador da equipe, 
+                        depositando a esperança de gols na torcida. Sua presença na área e capacida
+                        de de finalização são seus pontos fortes, além de participar da construção ofensiva.
+                        No entanto, sua trajetória no clube apresenta altos e baixos, alternando
+                         momentos de destaque com períodos de menor produtividade, gerando
+                          críticas. A busca por regularidade é um desafio constante.
+                        A comissão técnica e a diretoria confiam em seu potencial, trabalhando 
+                        para que ele se firme como artilheiro. O entrosamento com o time e a
+                         adaptação tática são importantes nesse processo.
+                        Para a torcida, Yuri representa a esperança de conquistas através de
+                         seus gols, vivendo uma relação de apoio e impaciência. Seu futuro no 
+                         Corinthians depende de sua capacidade de superar os desafios e se 
+                         consolidar como o goleador esperado.
+                         </p>
+
+                    <img src="img/y.jpg" >
+                    <img src="img/yu.jpg">
+                </div>
+                <div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">M.Depão</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Memphis Depay, atacante holandês, possui um talento inegável e um estilo de jogo vibrante.
+                         Habilidoso e com potente chute, pode atuar em diversas posições no ataque. Sua passagem
+                          por grandes clubes demonstra seu potencial, mas a irregularidade marcou alguns momentos
+                           de sua carreira. No Atlético de Madrid, busca se firmar e mostrar sua qualidade,
+                            contribuindo com gols e assistências. Sua personalidade forte e seu estilo único o 
+                            tornam uma figura marcante no futebol atual. A expectativa é que ele possa brilhar e ser decisivo em sua nova jornada na 
+                        Espanha.</p>
+                    <img src="img/dipa.jpg">
+                </div><img src="img/mp.jpg">
+                <div >
+                </div>
+    <footer class="container py-5">
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/Thiago-Borsuk">GitHub</a>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
